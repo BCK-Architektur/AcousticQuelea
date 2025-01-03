@@ -7,3 +7,4 @@ C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net48\Acoust
 C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net48\AcousticQuelea.csproj.CoreCompileInputs.cache
 C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net48\AcousticQuelea.gha
 C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net48\AcousticQuelea.pdb
+C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net48\AcousticQuelea.sourcelink.json

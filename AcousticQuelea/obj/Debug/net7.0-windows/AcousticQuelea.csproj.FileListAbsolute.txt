@@ -12,3 +12,4 @@ C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net7.0-windo
 C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net7.0-windows\AcousticQuelea.pdb
 C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net7.0-windows\AcousticQuelea.genruntimeconfig.cache
 C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net7.0-windows\ref\AcousticQuelea.gha
+C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net7.0-windows\AcousticQuelea.sourcelink.json
