@@ -21,6 +21,7 @@ namespace AcousticQuelea
         {
             pManager.AddGenericParameter("Particles", "P", "Sound particles from emitter", GH_ParamAccess.list);
             pManager.AddBrepParameter("Environment", "B", "Acoustic Brep environment", GH_ParamAccess.item);
+            pManager.AddBooleanParameter("Reset", "R", "Reset particles to emitter point", GH_ParamAccess.item, false);
         }
 
         protected override void RegisterOutputParams(GH_OutputParamManager pManager)
@@ -32,15 +33,28 @@ namespace AcousticQuelea
         {
             List<SoundParticle> inputParticles = new List<SoundParticle>();
             Brep environment = null;
+            bool reset = false;
 
             if (!DA.GetDataList(0, inputParticles)) return;
             if (!DA.GetData(1, ref environment)) return;
+            DA.GetData(2, ref reset);
 
-            // Update existing particles or replace
-            particles = new List<SoundParticle>(inputParticles);
+            if (reset)
+            {
+                // Reset particles by replacing with new ones from the emitter
+                particles = new List<SoundParticle>(inputParticles);
+            }
+            else
+            {
+                // Update existing particles if reset is not triggered
+                particles.RemoveAll(p => !p.IsAlive());
+                if (particles.Count == 0)
+                {
+                    particles = new List<SoundParticle>(inputParticles);
+                }
+            }
 
             List<Line> paths = new List<Line>();
-
             foreach (var particle in particles)
             {
                 var start = particle.Position;
@@ -51,6 +65,7 @@ namespace AcousticQuelea
             DA.SetDataList(0, paths);
         }
 
+        // Draw particles in the viewport
         public override void DrawViewportWires(IGH_PreviewArgs args)
         {
             foreach (var particle in particles)

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Description of AcousticQuelea")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+5d6009002e9580d97c9404cd08a892cd48943c92")]
 [assembly: System.Reflection.AssemblyProductAttribute("AcousticQuelea")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AcousticQuelea")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
