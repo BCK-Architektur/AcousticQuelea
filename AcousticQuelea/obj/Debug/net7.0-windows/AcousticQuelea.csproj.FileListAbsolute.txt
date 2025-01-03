@@ -1,0 +1,14 @@
+C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\bin\Debug\net7.0-windows\AcousticQuelea.deps.json
+C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\bin\Debug\net7.0-windows\AcousticQuelea.runtimeconfig.json
+C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\bin\Debug\net7.0-windows\AcousticQuelea.gha
+C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\bin\Debug\net7.0-windows\AcousticQuelea.pdb
+C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net7.0-windows\AcousticQuelea.csproj.AssemblyReference.cache
+C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net7.0-windows\AcousticQuelea.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net7.0-windows\AcousticQuelea.AssemblyInfoInputs.cache
+C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net7.0-windows\AcousticQuelea.AssemblyInfo.cs
+C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net7.0-windows\AcousticQuelea.csproj.CoreCompileInputs.cache
+C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net7.0-windows\AcousticQuelea.gha
+C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net7.0-windows\refint\AcousticQuelea.gha
+C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net7.0-windows\AcousticQuelea.pdb
+C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net7.0-windows\AcousticQuelea.genruntimeconfig.cache
+C:\Users\jsskr\source\repos\AcousticQuelea\AcousticQuelea\obj\Debug\net7.0-windows\ref\AcousticQuelea.gha
