@@ -1,12 +1,101 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1A4DB0-D342-4695-BCE9-D36324D556AF}|AcousticQuelea\\AcousticQuelea.csproj|c:\\users\\jsskr\\source\\repos\\acousticquelea\\acousticquelea\\soundparticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1A4DB0-D342-4695-BCE9-D36324D556AF}|AcousticQuelea\\AcousticQuelea.csproj|solutionrelative:acousticquelea\\soundparticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1A4DB0-D342-4695-BCE9-D36324D556AF}|AcousticQuelea\\AcousticQuelea.csproj|c:\\users\\jsskr\\source\\repos\\acousticquelea\\acousticquelea\\brepenvironmentcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1A4DB0-D342-4695-BCE9-D36324D556AF}|AcousticQuelea\\AcousticQuelea.csproj|solutionrelative:acousticquelea\\brepenvironmentcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1A4DB0-D342-4695-BCE9-D36324D556AF}|AcousticQuelea\\AcousticQuelea.csproj|c:\\users\\jsskr\\source\\repos\\acousticquelea\\acousticquelea\\acousticqueleainfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1A4DB0-D342-4695-BCE9-D36324D556AF}|AcousticQuelea\\AcousticQuelea.csproj|solutionrelative:acousticquelea\\acousticqueleainfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1A4DB0-D342-4695-BCE9-D36324D556AF}|AcousticQuelea\\AcousticQuelea.csproj|c:\\users\\jsskr\\source\\repos\\acousticquelea\\acousticquelea\\soundemittercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1A4DB0-D342-4695-BCE9-D36324D556AF}|AcousticQuelea\\AcousticQuelea.csproj|solutionrelative:acousticquelea\\soundemittercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1A4DB0-D342-4695-BCE9-D36324D556AF}|AcousticQuelea\\AcousticQuelea.csproj|c:\\users\\jsskr\\source\\repos\\acousticquelea\\acousticquelea\\particlevisualizercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1A4DB0-D342-4695-BCE9-D36324D556AF}|AcousticQuelea\\AcousticQuelea.csproj|solutionrelative:acousticquelea\\particlevisualizercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SoundParticle.cs",
+              "DocumentMoniker": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\SoundParticle.cs",
+              "RelativeDocumentMoniker": "AcousticQuelea\\SoundParticle.cs",
+              "ToolTip": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\SoundParticle.cs",
+              "RelativeToolTip": "AcousticQuelea\\SoundParticle.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T12:13:08.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AcousticQueleaInfo.cs",
+              "DocumentMoniker": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\AcousticQueleaInfo.cs",
+              "RelativeDocumentMoniker": "AcousticQuelea\\AcousticQueleaInfo.cs",
+              "ToolTip": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\AcousticQueleaInfo.cs",
+              "RelativeToolTip": "AcousticQuelea\\AcousticQueleaInfo.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T12:12:15.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SoundEmitterComponent.cs",
+              "DocumentMoniker": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\SoundEmitterComponent.cs",
+              "RelativeDocumentMoniker": "AcousticQuelea\\SoundEmitterComponent.cs",
+              "ToolTip": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\SoundEmitterComponent.cs",
+              "RelativeToolTip": "AcousticQuelea\\SoundEmitterComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T12:12:04.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ParticleVisualizerComponent.cs",
+              "DocumentMoniker": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\ParticleVisualizerComponent.cs",
+              "RelativeDocumentMoniker": "AcousticQuelea\\ParticleVisualizerComponent.cs",
+              "ToolTip": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\ParticleVisualizerComponent.cs",
+              "RelativeToolTip": "AcousticQuelea\\ParticleVisualizerComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T12:12:03.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BrepEnvironmentComponent.cs",
+              "DocumentMoniker": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\BrepEnvironmentComponent.cs",
+              "RelativeDocumentMoniker": "AcousticQuelea\\BrepEnvironmentComponent.cs",
+              "ToolTip": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\BrepEnvironmentComponent.cs",
+              "RelativeToolTip": "AcousticQuelea\\BrepEnvironmentComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T12:11:58.065Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
