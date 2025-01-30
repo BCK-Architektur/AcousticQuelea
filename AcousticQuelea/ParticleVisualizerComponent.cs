@@ -3,6 +3,7 @@ using Rhino.Geometry;
 using System.Collections.Generic;
 using Rhino.Display;
 using System;
+using System.Drawing;
 
 namespace AcousticQuelea
 {
@@ -12,7 +13,7 @@ namespace AcousticQuelea
 
         public ParticleVisualizerComponent()
           : base("Particle Visualizer", "PVis",
-              "Visualizes sound particles in the Brep environment",
+              "Visualizes sound particles in the Brep environment with bounce-based color changes",
               "acoustics_tej", "Visualization")
         {
         }
@@ -36,14 +37,19 @@ namespace AcousticQuelea
             if (!DA.GetDataList(0, inputParticles)) return;
             if (!DA.GetData(1, ref environment)) return;
 
-            particles = new List<SoundParticle>(inputParticles);
+            particles = new List<SoundParticle>();
 
             List<Line> paths = new List<Line>();
-            foreach (var particle in particles)
+
+            foreach (var particle in inputParticles)
             {
-                var start = particle.Position;
-                particle.Move(environment);
-                paths.Add(new Line(start, particle.Position));
+                if (particle.IsAlive()) // Only process particles that haven't died
+                {
+                    var start = particle.Position;
+                    particle.Move(environment);
+                    particles.Add(particle); // Keep the updated particle in the list
+                    paths.Add(new Line(start, particle.Position));
+                }
             }
 
             DA.SetDataList(0, paths);
@@ -53,7 +59,10 @@ namespace AcousticQuelea
         {
             foreach (var particle in particles)
             {
-                args.Display.DrawPoint(particle.Position, PointStyle.RoundSimple, 3, System.Drawing.Color.Cyan);
+                if (particle.IsAlive()) // Only draw alive particles
+                {
+                    args.Display.DrawPoint(particle.Position, PointStyle.RoundSimple, 3, particle.ParticleColor);
+                }
             }
         }
 

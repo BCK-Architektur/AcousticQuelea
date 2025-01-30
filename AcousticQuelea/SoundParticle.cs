@@ -1,6 +1,7 @@
 ﻿using Rhino.Geometry;
 using System;
 using System.Linq;
+using System.Drawing; // For color handling
 
 namespace AcousticQuelea
 {
@@ -11,50 +12,80 @@ namespace AcousticQuelea
         public double Frequency { get; private set; }
         public double Intensity { get; private set; }
         public int Lifespan { get; private set; }
+        public int Bounces { get; private set; }
+        public int MaxBounces { get; private set; }
+        public Color ParticleColor { get; private set; } // Particle color based on bounces
 
         private static readonly Random random = new Random();
+        private const double IntensityFalloff = 0.005;
         private const double EdgeThreshold = 0.3;  // Edge detection threshold
         private const double ContainmentFactor = 0.5;
 
-        public SoundParticle(Point3d position, double frequency)
+        public SoundParticle(Point3d position, Vector3d velocity, double frequency, int maxBounces)
         {
             Position = position;
             Frequency = frequency;
             Intensity = 1.0;
             Lifespan = 200;
-            Velocity = GetRandomDirection() * 2.0;
+            Velocity = velocity;
+            MaxBounces = maxBounces;
+            Bounces = 0;
+            ParticleColor = Color.Blue; // Default color (starts as blue)
         }
 
         public void Move(Brep environment)
         {
             Position += Velocity;
-            Intensity -= 0.005;
+            Intensity -= IntensityFalloff;
 
             if (environment != null)
             {
-                AvoidEdges(environment);  // Proactively steer away from edges
-                ReflectIfHit(environment);
-                BounceContain(environment);  // Bounce back if near boundary
+                if (ReflectIfHit(environment))
+                {
+                    Bounces++;
+                    UpdateColor(); // Change color after each bounce
+
+                    if (Bounces >= MaxBounces)
+                    {
+                        Intensity = 0; // Kill particle after max bounces
+                    }
+                }
+
+                AvoidEdges(environment);  // Avoid naked edges
+                BounceContain(environment);  // Keep within bounds
             }
 
             Lifespan--;
         }
 
-        // Reflect particles if they collide with Brep faces
-        private void ReflectIfHit(Brep environment)
+        private bool ReflectIfHit(Brep environment)
         {
             Vector3d normal;
             var closestPoint = environment.ClosestPoint(Position, out Point3d pointOnBrep, out ComponentIndex ci, out double u, out double v, 1.0, out normal);
 
-            // Detect face collisions
             if (closestPoint && ci.ComponentIndexType == ComponentIndexType.BrepFace)
             {
                 if (Position.DistanceTo(pointOnBrep) < 0.5)
                 {
                     Velocity = Reflect(Velocity, normal);
                     Intensity *= 0.9;
+                    return true;
                 }
             }
+            return false;
+        }
+
+        // Update color based on the number of bounces
+        private void UpdateColor()
+        {
+            int red = Math.Min(255, (Bounces * 50));  // Increases red component with bounces
+            int blue = Math.Max(0, 255 - (Bounces * 50)); // Decreases blue component
+            ParticleColor = Color.FromArgb(red, 0, blue);
+        }
+
+        private Vector3d Reflect(Vector3d vector, Vector3d normal)
+        {
+            return vector - 2 * (vector * normal) * normal;
         }
 
         // Contain particles within Brep bounding box to avoid escape
@@ -97,21 +128,6 @@ namespace AcousticQuelea
                     }
                 }
             }
-        }
-
-        private Vector3d Reflect(Vector3d vector, Vector3d normal)
-        {
-            return vector - 2 * (vector * normal) * normal;
-        }
-
-        private Vector3d GetRandomDirection()
-        {
-            double x = random.NextDouble() * 2 - 1;
-            double y = random.NextDouble() * 2 - 1;
-            double z = random.NextDouble() * 2 - 1;
-            var direction = new Vector3d(x, y, z);
-            direction.Unitize();
-            return direction;
         }
 
         public bool IsAlive()
