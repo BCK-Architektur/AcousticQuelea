@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B1A4DB0-D342-4695-BCE9-D36324D556AF}|AcousticQuelea\\AcousticQuelea.csproj|c:\\users\\jsskr\\source\\repos\\acousticquelea\\acousticquelea\\soundemittercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B1A4DB0-D342-4695-BCE9-D36324D556AF}|AcousticQuelea\\AcousticQuelea.csproj|solutionrelative:acousticquelea\\soundemittercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B1A4DB0-D342-4695-BCE9-D36324D556AF}|AcousticQuelea\\AcousticQuelea.csproj|c:\\users\\jsskr\\source\\repos\\acousticquelea\\acousticquelea\\particlevisualizercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B1A4DB0-D342-4695-BCE9-D36324D556AF}|AcousticQuelea\\AcousticQuelea.csproj|solutionrelative:acousticquelea\\particlevisualizercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1A4DB0-D342-4695-BCE9-D36324D556AF}|AcousticQuelea\\AcousticQuelea.csproj|c:\\users\\jsskr\\source\\repos\\acousticquelea\\acousticquelea\\soundreceivercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1A4DB0-D342-4695-BCE9-D36324D556AF}|AcousticQuelea\\AcousticQuelea.csproj|solutionrelative:acousticquelea\\soundreceivercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1A4DB0-D342-4695-BCE9-D36324D556AF}|AcousticQuelea\\AcousticQuelea.csproj|c:\\users\\jsskr\\source\\repos\\acousticquelea\\acousticquelea\\soundemittercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1A4DB0-D342-4695-BCE9-D36324D556AF}|AcousticQuelea\\AcousticQuelea.csproj|solutionrelative:acousticquelea\\soundemittercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B1A4DB0-D342-4695-BCE9-D36324D556AF}|AcousticQuelea\\AcousticQuelea.csproj|c:\\users\\jsskr\\source\\repos\\acousticquelea\\acousticquelea\\soundparticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,24 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SoundParticle.cs",
-              "DocumentMoniker": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\SoundParticle.cs",
-              "RelativeDocumentMoniker": "AcousticQuelea\\SoundParticle.cs",
-              "ToolTip": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\SoundParticle.cs",
-              "RelativeToolTip": "AcousticQuelea\\SoundParticle.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAcwBsAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ParticleVisualizerComponent.cs",
+              "DocumentMoniker": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\ParticleVisualizerComponent.cs",
+              "RelativeDocumentMoniker": "AcousticQuelea\\ParticleVisualizerComponent.cs",
+              "ToolTip": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\ParticleVisualizerComponent.cs",
+              "RelativeToolTip": "AcousticQuelea\\ParticleVisualizerComponent.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAgwGwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T18:46:07.368Z",
+              "WhenOpened": "2025-01-30T19:08:11.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "SoundReceiverComponent.cs",
+              "DocumentMoniker": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\SoundReceiverComponent.cs",
+              "RelativeDocumentMoniker": "AcousticQuelea\\SoundReceiverComponent.cs",
+              "ToolTip": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\SoundReceiverComponent.cs",
+              "RelativeToolTip": "AcousticQuelea\\SoundReceiverComponent.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAowE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T19:40:09.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SoundEmitterComponent.cs",
               "DocumentMoniker": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\SoundEmitterComponent.cs",
               "RelativeDocumentMoniker": "AcousticQuelea\\SoundEmitterComponent.cs",
@@ -56,20 +73,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ParticleVisualizerComponent.cs",
-              "DocumentMoniker": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\ParticleVisualizerComponent.cs",
-              "RelativeDocumentMoniker": "AcousticQuelea\\ParticleVisualizerComponent.cs",
-              "ToolTip": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\ParticleVisualizerComponent.cs",
-              "RelativeToolTip": "AcousticQuelea\\ParticleVisualizerComponent.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwEcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "SoundParticle.cs",
+              "DocumentMoniker": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\SoundParticle.cs",
+              "RelativeDocumentMoniker": "AcousticQuelea\\SoundParticle.cs",
+              "ToolTip": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\SoundParticle.cs",
+              "RelativeToolTip": "AcousticQuelea\\SoundParticle.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwBsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:08:11.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T18:46:07.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AcousticQueleaInfo.cs",
               "DocumentMoniker": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\AcousticQueleaInfo.cs",
               "RelativeDocumentMoniker": "AcousticQuelea\\AcousticQueleaInfo.cs",
@@ -77,8 +93,7 @@
               "RelativeToolTip": "AcousticQuelea\\AcousticQueleaInfo.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T18:45:38.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T18:45:38.216Z"
             }
           ]
         }
