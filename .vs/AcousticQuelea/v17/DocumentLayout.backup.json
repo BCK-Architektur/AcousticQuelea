@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "AcousticQuelea\\ParticleVisualizerComponent.cs",
               "ToolTip": "C:\\Users\\jsskr\\source\\repos\\AcousticQuelea\\AcousticQuelea\\ParticleVisualizerComponent.cs",
               "RelativeToolTip": "AcousticQuelea\\ParticleVisualizerComponent.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAgwGwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAgwGwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T19:08:11.998Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "AcousticQuelea\\SoundReceiverComponent.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAowE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:40:09.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:40:09.951Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "AcousticQuelea\\SoundEmitterComponent.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAIwDAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T12:12:04.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-21T12:12:04.833Z"
             },
             {
               "$type": "Document",
